@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang=”fr”>
+<head>
+    <meta charset=»UTF-8» />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=devicec-width, initial-scale=1.0">
+    <title>La page de la star Gemma</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#" class="logo">Together</a>
+        <div class="nav-links menu-cacher">
+            <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Présentation</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="https://diapolive.com/gemma/" target="_blank" class="box-purple">Ecouter</a></li>
+            </ul>
+        </div>
+        <img src="img5.png" alt="menuhamburger" class="menu-hamburger">
+    </nav>
+    <section class="presentation first">
+        <div class="product-presentation">
+            <h1>Ecouter de la musique, c'est vivre sa passion</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+                odio eos beatae labore possimus. Pariatur ipsa, tempore optio
+                placeat expedita minus cupiditate nulla iure quis error. A vitae
+                quibusdam ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button><a href="https://diapolive.com/gemma/" target="_blank">Ecouter maintenant</a></button>
+            <div class="small-images">
+                <div class="small">
+                    <img src="img2.jpg">
+                </div>
+                <div class="small">
+                    <img src="img4.jpg">
+                </div>
+                <div class="small">
+                    <img src="img3.png">
+                </div>
+            </div>
+        </div>
+        <div class="image-presentation">
+            <img src="img1.jfif">
+        </div>
+    </section>
+</header>
+<section class="presentation second">
+    <div class="product-presentation">
+        <div class="image-presentation">
+            <p class="new">New album available </p>
+            <h1>Together, le nouvel album de Gemma</h1>
+            <p>
+                a faire
+            </p>
+            <button id="launch-music">
+
+                <a href="https://my.spline.design/miniroom-187ab9f70c05e0ef68f5f614e4d06d9a/" target="_blank" >Lauch animation</a>
+            </button>
+        </div>
+    </div>
+    <div class="image-presentation">
+        <img src="img1.jfif">
+    </div>
+</section>
+
+<footer>
+    <div class="column">
+        <h3>Aide</h3>
+        <p>gemma@Together.fr</p>
+        <p>Contactez nous</p>
+    </div>
+    <div class="column">
+        <h3>Recherche Feat</h3>
+        <p>sing@feat.fr</p>
+        <p>Postuler en ligne</p>
+        <p>Comment faire ?</p>
+    </div>
+    <div class="column">
+        <h3>Mes réseaux</h3>
+        <ul>
+            <li><a href="https://fr-fr.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/?lang=fr" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/?hl=fr">Instagram</a></li>
+        </ul>
+    </div>
+</footer>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const imagePresentation = document.querySelector(".image-presentation");
+
+    menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('menu-cacher');
+        imagePresentation.classList.toggle('menu-cacher');
+    })
+
+
+    // remplir la balise avec ton #idDuBtn
+    const btnMusic = document.querySelector('#launch-music');
+    btnMusic.addEventListener('click', () => {
+        console.log('Together - Gemma.mp3');
+        // changer le son.mp3 par ton son
+        var audio = new Audio('Together - Gemma.mp3');
+        audio.play("Together - Gemma.mp3");
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="ftpinfo.iutmontp.univ-montp2.fr" id="100b1e8c-1f3e-4a77-9399-3e4956a55ccd" port="22" nameFormat="DESCRIPTIVE" username="trouchex" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

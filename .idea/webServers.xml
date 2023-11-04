@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="658432be-79c0-4d06-b1a5-90f25e0e627d" name="webinfoIUT" url="https://webinfo.iutmontp.univ-montp2.fr/~trouchex/ProjectPerso/Personal_MusicProject/ressources/web/">
+        <fileTransfer accessType="SFTP" host="ftpinfo.iutmontp.univ-montp2.fr" port="22" sshConfigId="100b1e8c-1f3e-4a77-9399-3e4956a55ccd" sshConfig="trouchex@ftpinfo.iutmontp.univ-montp2.fr:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
